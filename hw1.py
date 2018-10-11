@@ -1,6 +1,7 @@
 import numpy as np
 from astropy.stats import sigma_clipped_stats
 from matplotlib import pyplot as plt
+
 #%%
 # problem 1
 np.random.seed(123)
