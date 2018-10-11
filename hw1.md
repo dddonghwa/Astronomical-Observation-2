@@ -27,7 +27,7 @@ print (f"average = {avg:.3f}, median = {med:.3f}, standard deviation = {std:.3f}
 avg, med, std = sigma_clipped_stats(data, sigma=1, iters=1)
 print (f"average = {avg:.3f}, median = {med:.3f}, standard deviation = {std:.3f}")
 ~~~
-(3)
+(3) eps를 매우 작은 값으로 설정하고 iteration n과 n+1일 때의 평균과 중앙값, 표준편차의 차가 eps보다 작다면 iteration 횟수 n을 출력하도록 한다.  
 ~~~ 
 eps = 10**(-10)
 for i in range(6):
