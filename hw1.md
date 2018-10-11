@@ -46,7 +46,7 @@ problem # 01과 동일하게 np.random.random 함수를 통해 data를 불러 �
 np.random.seed(123)
 data = np.random.random((10, 20))
 data[:, [3, 10]] += 10
-~~
+~~~
 iteration 횟수를 i (array)로 설정하고 sigma_clipped_stats를 실행한다.
 ~~~
 for i in [0, 3]:
