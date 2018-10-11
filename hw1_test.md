@@ -15,19 +15,19 @@ np.random.random 함수를 통해 (0,1) 사이의 값을 가지는 임의의 dat
 np.random.seed(123)
 data = np.random.random(10)
 ~~~
-#(1) 
+(1) numpy 함수를 통해 평균과 중앙값, 표준편차를 구할 수 있다.
 ~~~
 avg = np.average(data)
 med = np.median(data)
 std = np.std(data)
 print (f"average = {avg:.3f}, median = {med:.3f}, standard deviation = {std:.3f}")
 ~~~
-# (2)
+(2)
 ~~~
 avg, med, std = sigma_clipped_stats(data, sigma=1, iters=1)
 print (f"average = {avg:.3f}, median = {med:.3f}, standard deviation = {std:.3f}")
 ~~~
-# (3)
+(3)
 ~~~ 
 eps = 10**(-10)
 for i in range(6):
@@ -38,6 +38,25 @@ for i in range(6):
         print(f"At N_iter {i}, these three values stop to change.")
         break
 ~~~
-결과는 다음과 같다.
-![Alt text](/Users/Owner/Desktop/천관실2/result1.png)
+결과는 다음과 같다. :
+![Alt text](C:\Users\Owner\AO2\result1.PNG)
 
+problem # 02
+----------------
+problem # 01과 동일하게 np.random.random 함수를 통해 data를 불러 온다.
+~~~
+np.random.seed(123)
+data = np.random.random((10, 20))
+data[:, [3, 10]] += 10
+~~
+iteration 횟수를 i (array)로 설정하고 sigma_clipped_stats를 실행한다.
+~~~
+for i in [0, 3]:
+    avg, med, std = sigma_clipped_stats(data, sigma=1, iters=i, axis=0)
+    plt.plot(med, label=f"Niter = {i}", ls=':', marker='.')
+plt.title("Median combine")
+plt.grid(ls=':')
+plt.legend()
+~~~
+결과는 다음과 같다. :
+![alt text](C:\Users\Owner\AO2\result2.png)
