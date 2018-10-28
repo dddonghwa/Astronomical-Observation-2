@@ -1,7 +1,8 @@
 Homework 02
 =============
 
-# problem 01
+problem 01
+--------------
 ~~~
 import numpy as np
 
@@ -47,6 +48,8 @@ imf = axf.imshow(flat, origin='lower')
 fig.colorbar(imf, ax=axf)
 plt.tight_layout()
 ~~~
+
+
 
 problem 02
 --------------------
