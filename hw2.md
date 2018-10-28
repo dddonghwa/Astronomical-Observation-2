@@ -49,6 +49,8 @@ fig.colorbar(imf, ax=axf)
 plt.tight_layout()
 ~~~
 
+1. Combined bias and flat frame
+
 ![combined](https://user-images.githubusercontent.com/38090151/47615517-150ece00-daf3-11e8-914e-afe38b9e6741.png)
 
 
@@ -98,3 +100,8 @@ for i, k in enumerate(lastrow.keys()):
 
 plt.tight_layout()
 ~~~
+1. The target's spectrum shows near y=5.
+2. 'avr_minus_med' plot show that the difference between average and medianing exists along the grid.
+
+![sample9](https://user-images.githubusercontent.com/38090151/47615525-366fba00-daf3-11e8-97b2-786719df1a50.png)
+
