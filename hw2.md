@@ -49,6 +49,7 @@ fig.colorbar(imf, ax=axf)
 plt.tight_layout()
 ~~~
 
+![combined](https://user-images.githubusercontent.com/38090151/47615517-150ece00-daf3-11e8-914e-afe38b9e6741.png)
 
 
 problem 02
