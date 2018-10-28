@@ -105,6 +105,5 @@ plt.tight_layout()
 
 1. The target's spectrum shows near y=5 in every samples.
 2. 'avr_minus_med' plot shows that the difference between average and medianing exists along the grid. It is not even.
-
-*고르지 않고 얼룩덜룩해요.
+    *고르지 않고 얼룩덜룩해요.
 
