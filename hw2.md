@@ -2,6 +2,7 @@ Homework 02
 =============
 
 # problem 01
+~~~
 import numpy as np
 
 biass = []
@@ -45,9 +46,11 @@ fig.colorbar(imb, ax=axb)
 imf = axf.imshow(flat, origin='lower')
 fig.colorbar(imf, ax=axf)
 plt.tight_layout()
+~~~
 
-#%%
-# problem 02
+problem 02
+--------------------
+~~~
 import numpy as np
 from matplotlib import pyplot as plt
 np.random.seed(1)
@@ -90,3 +93,4 @@ for i, k in enumerate(lastrow.keys()):
     ax.set_title(k)
 
 plt.tight_layout()
+~~~
