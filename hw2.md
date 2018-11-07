@@ -3,7 +3,7 @@ Homework 02
 
 problem 01
 --------------
-~~~
+~~~python
 import numpy as np
 
 biass = []
@@ -56,7 +56,7 @@ plt.tight_layout()
 
 problem 02
 --------------------
-~~~
+~~~python
 import numpy as np
 from matplotlib import pyplot as plt
 np.random.seed(1)
