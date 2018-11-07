@@ -3,7 +3,7 @@ Homework 02
 
 problem 01
 --------------
-~~~
+~~~python
 import numpy as np
 
 biass = []
@@ -56,7 +56,7 @@ plt.tight_layout()
 
 problem 02
 --------------------
-~~~
+~~~python
 import numpy as np
 from matplotlib import pyplot as plt
 np.random.seed(1)
@@ -103,7 +103,7 @@ plt.tight_layout()
 
 ![sample9](https://user-images.githubusercontent.com/38090151/47615525-366fba00-daf3-11e8-97b2-786719df1a50.png)
 
-1. The target's spectrum shows near y=5 in every samples.
-2. 'avr_minus_med' plot shows that the difference between average and medianing exists along the grid. It is not even.
-    *고르지 않고 얼룩덜룩해요.
+1. The target's spectrum is visible near y=5 in every sample.
+2. ``avg_minus_med`` plot shows that the difference between average and medianing exists along the grid. It is not even.
+    (고르지 않고 얼룩덜룩해요.)
 
